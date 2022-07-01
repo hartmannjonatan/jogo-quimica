@@ -1,8 +1,8 @@
 extends KinematicBody2D
 
 var velocidade = Vector2.ZERO
-const VELOCIDADE_MAX = 120
-const ACELERACAO = 250
+const VELOCIDADE_MAX = 100
+const ACELERACAO = 500
 const ATRITO = 800
 
 onready var animationPlayer = $AnimationPlayer
