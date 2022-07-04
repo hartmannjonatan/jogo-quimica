@@ -1,6 +1,7 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://assets/aseprites/H-floating.png" type="Texture" id=1]
+[ext_resource path="res://element.gd" type="Script" id=2]
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 1 )
@@ -33,7 +34,8 @@ animations = [ {
 [sub_resource type="CircleShape2D" id=7]
 radius = 8.24621
 
-[node name="H" type="Area2D"]
+[node name="H" type="Area2D" groups=["H"]]
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -41,7 +43,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 6 )
 animation = "floating"
-frame = 6
+frame = 4
 playing = true
 __meta__ = {
 "_editor_description_": "YXNlcHJpdGVfd2l6YXJkX2NvbmZpZwpzb3VyY2V8PUM6L1N5c3RlbS9Fc2NvbGEvSUZGQVIvM8K6L3F1aW1pY2EvSC1mbG9hdGluZy5hc2Vwcml0ZQpsYXllcnw9TGF5ZXIgMgpvcF9leHB8PVRydWUKb19mb2xkZXJ8PXJlczovL2Fzc2V0cy9hc2Vwcml0ZXMKb19uYW1lfD1ILWZsb2F0aW5nCm9ubHlfdmlzaWJsZXw9RmFsc2UKb19leF9wfD0K"
@@ -50,3 +52,5 @@ __meta__ = {
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
 shape = SubResource( 7 )
+
+[connection signal="body_entered" from="." to="." method="_on_H_body_entered"]

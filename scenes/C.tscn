@@ -1,4 +1,6 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://element.gd" type="Script" id=1]
 
 [sub_resource type="StreamTexture" id=8]
 load_path = "res://.import/C-floating-2Layer 1.png-29d320bc336b4c7110fe601f38dc100d.stex"
@@ -38,7 +40,8 @@ animations = [ {
 [sub_resource type="CircleShape2D" id=7]
 radius = 8.0
 
-[node name="C" type="Area2D"]
+[node name="C" type="Area2D" groups=["C"]]
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -46,7 +49,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 15 )
 animation = "floating"
-frame = 5
+frame = 4
 playing = true
 __meta__ = {
 "_editor_description_": "YXNlcHJpdGVfd2l6YXJkX2NvbmZpZwpzb3VyY2V8PUM6L1N5c3RlbS9Fc2NvbGEvSUZGQVIvM8K6L3F1aW1pY2EvQy1mbG9hdGluZy5hc2Vwcml0ZQpsYXllcnw9TGF5ZXIgMQpvcF9leHB8PVRydWUKb19mb2xkZXJ8PXJlczovL2Fzc2V0cy9hc2Vwcml0ZXMKb19uYW1lfD1DLWZsb2F0aW5nLTIKb25seV92aXNpYmxlfD1GYWxzZQpvX2V4X3B8PQo="
@@ -56,3 +59,5 @@ __meta__ = {
 visible = false
 position = Vector2( 0, 1 )
 shape = SubResource( 7 )
+
+[connection signal="body_entered" from="." to="." method="_on_C_body_entered"]

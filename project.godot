@@ -14,6 +14,10 @@ config/name="jogo-quimica"
 run/main_scene="res://World.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Inventary="*res://inventary.gd"
+
 [display]
 
 window/size/width=512

@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/lab_01.png" type="Texture" id=2]
@@ -9,15 +9,14 @@
 [ext_resource path="res://scenes/H.tscn" type="PackedScene" id=7]
 [ext_resource path="res://scenes/O.tscn" type="PackedScene" id=8]
 [ext_resource path="res://scenes/N.tscn" type="PackedScene" id=9]
-[ext_resource path="res://scenes/Cl.tscn" type="PackedScene" id=10]
-[ext_resource path="res://scenes/Br.tscn" type="PackedScene" id=11]
-[ext_resource path="res://scenes/I.tscn" type="PackedScene" id=12]
-[ext_resource path="res://scenes/F.tscn" type="PackedScene" id=13]
+[ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=14]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 128, 36 )
 
 [node name="World" type="Node2D"]
+
+[node name="HUD" parent="." instance=ExtResource( 14 )]
 
 [node name="Lab_01" type="Sprite" parent="."]
 position = Vector2( 266, 149 )
@@ -30,26 +29,17 @@ __meta__ = {
 [node name="C" parent="." instance=ExtResource( 6 )]
 position = Vector2( 207, 112 )
 
+[node name="C2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 370, 172 )
+
 [node name="H" parent="." instance=ExtResource( 7 )]
-position = Vector2( 207, 131 )
+position = Vector2( 210, 171 )
 
 [node name="O" parent="." instance=ExtResource( 8 )]
-position = Vector2( 209, 152 )
+position = Vector2( 285, 248 )
 
 [node name="N" parent="." instance=ExtResource( 9 )]
-position = Vector2( 209, 173 )
-
-[node name="Cl" parent="." instance=ExtResource( 10 )]
-position = Vector2( 209, 192 )
-
-[node name="Br" parent="." instance=ExtResource( 11 )]
-position = Vector2( 209, 214 )
-
-[node name="I" parent="." instance=ExtResource( 12 )]
-position = Vector2( 210, 235 )
-
-[node name="F" parent="." instance=ExtResource( 13 )]
-position = Vector2( 210, 252 )
+position = Vector2( 172, 245 )
 
 [node name="YSort" type="YSort" parent="."]
 
@@ -69,7 +59,7 @@ scale = Vector2( 0.5, 0.5 )
 shape = SubResource( 1 )
 
 [node name="Estante_02" type="StaticBody2D" parent="YSort"]
-position = Vector2( 290, 205 )
+position = Vector2( 290, 204 )
 __meta__ = {
 "_edit_group_": true
 }

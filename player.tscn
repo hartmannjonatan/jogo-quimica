@@ -1,6 +1,7 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=28 format=2]
 
 [ext_resource path="res://player.gd" type="Script" id=1]
+[ext_resource path="res://audios/getFx.wav" type="AudioStream" id=2]
 
 [sub_resource type="Animation" id=3]
 length = 0.001
@@ -217,7 +218,7 @@ load_path = "res://.import/scientist-sprite.png-b9473fb31f58ac7a985817dbc0da0360
 radius = 3.0
 height = 4.0
 
-[node name="Player" type="KinematicBody2D"]
+[node name="Player" type="KinematicBody2D" groups=["player"]]
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
@@ -250,3 +251,6 @@ hframes = 12
 position = Vector2( 0, 5 )
 rotation = 1.5708
 shape = SubResource( 25 )
+
+[node name="getElementFx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
