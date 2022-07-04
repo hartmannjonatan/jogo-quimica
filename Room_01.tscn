@@ -1,0 +1,68 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://assets/lab_01.png" type="Texture" id=1]
+[ext_resource path="res://scenes/H.tscn" type="PackedScene" id=2]
+[ext_resource path="res://player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/O.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/N.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/C.tscn" type="PackedScene" id=7]
+[ext_resource path="res://scenes/Estantes/Estante_01.tscn" type="PackedScene" id=8]
+[ext_resource path="res://scenes/Estantes/Estante_02.tscn" type="PackedScene" id=9]
+
+[node name="World" type="Node2D"]
+
+[node name="HUD" parent="." instance=ExtResource( 4 )]
+
+[node name="Lab_01" type="Sprite" parent="."]
+position = Vector2( 266, 149 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Elementos" type="Node" parent="."]
+
+[node name="C" parent="Elementos" instance=ExtResource( 7 )]
+position = Vector2( 207, 112 )
+
+[node name="C2" parent="Elementos" instance=ExtResource( 7 )]
+position = Vector2( 372, 171 )
+
+[node name="H" parent="Elementos" instance=ExtResource( 2 )]
+position = Vector2( 210, 171 )
+
+[node name="O" parent="Elementos" instance=ExtResource( 5 )]
+position = Vector2( 285, 248 )
+
+[node name="N" parent="Elementos" instance=ExtResource( 6 )]
+position = Vector2( 172, 245 )
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Player" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 210, 255 )
+scale = Vector2( 1.5, 1.5 )
+
+[node name="Estante_01" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 258, 141 )
+
+[node name="Estante_02" parent="YSort" instance=ExtResource( 9 )]
+position = Vector2( 322, 141 )
+
+[node name="Estante_03" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 322, 205 )
+
+[node name="Estante_04" parent="YSort" instance=ExtResource( 9 )]
+position = Vector2( 258, 205 )
+
+[node name="Collision" type="StaticBody2D" parent="."]
+position = Vector2( 263, 44 )
+scale = Vector2( 17.3479, 5.64155 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Collision"]
+polygon = PoolVector2Array( -8.58893, 27.1202, -5.59145, 27.1202, -5.59145, 15.7758, -3.97743, 15.7758, -3.97743, 32.7924, -7.66663, 32.7924, -7.66663, 38.4646, -3.97743, 38.4646, -3.97743, 41.3007, -2.13282, 41.3007, -2.13282, 38.4646, 7.09019, 38.4646, 7.09019, 12.9397, 8.01249, 12.9397, 8.01249, 10.2809, -7.72427, 10.1036, -7.66663, 27.1202, -8.58893, 27.1202, -8.58893, -6.02672, 8.70422, -6.02671, 8.70422, 42.896, -8.58893, 42.896 )

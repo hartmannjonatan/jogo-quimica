@@ -215,8 +215,8 @@ resource_local_to_scene = true
 load_path = "res://.import/scientist-sprite.png-b9473fb31f58ac7a985817dbc0da0360.stex"
 
 [sub_resource type="CapsuleShape2D" id=25]
-radius = 3.0
-height = 4.0
+radius = 1.99999
+height = 6.00001
 
 [node name="Player" type="KinematicBody2D" groups=["player"]]
 script = ExtResource( 1 )
@@ -240,15 +240,15 @@ tree_root = SubResource( 23 )
 anim_player = NodePath("../AnimationPlayer")
 active = true
 parameters/playback = SubResource( 24 )
-parameters/Idle/blend_position = Vector2( 0.646448, -0.10567 )
-parameters/Walk/blend_position = Vector2( 0, 0 )
+parameters/Idle/blend_position = Vector2( 0.00383353, -0.783237 )
+parameters/Walk/blend_position = Vector2( 0.159805, 0.419075 )
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = SubResource( 2 )
 hframes = 12
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, 5 )
+position = Vector2( 0, 6 )
 rotation = 1.5708
 shape = SubResource( 25 )
 

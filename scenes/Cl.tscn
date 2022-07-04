@@ -32,7 +32,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=7]
-radius = 8.0
+radius = 9.0
 
 [node name="Cl" type="Area2D" groups=["Cl"]]
 script = ExtResource( 2 )
@@ -43,7 +43,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 6 )
 animation = "floating"
-frame = 6
+frame = 1
 playing = true
 __meta__ = {
 "_editor_description_": "YXNlcHJpdGVfd2l6YXJkX2NvbmZpZwpzb3VyY2V8PUM6L1N5c3RlbS9Fc2NvbGEvSUZGQVIvM8K6L3F1aW1pY2EvQ2wtZmxvYXRpbmcuYXNlcHJpdGUKbGF5ZXJ8PUxheWVyIDEKb3BfZXhwfD1UcnVlCm9fZm9sZGVyfD1yZXM6Ly9hc3NldHMvYXNlcHJpdGVzCm9fbmFtZXw9Q2wtZmxvYXRpbmcKb25seV92aXNpYmxlfD1GYWxzZQpvX2V4X3B8PQo="

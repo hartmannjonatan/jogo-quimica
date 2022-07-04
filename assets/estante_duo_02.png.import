@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/estante_01.png-6913c550d6bb673c8aa99820cf326c71.stex"
+path="res://.import/estante_duo_02.png-fe4603653a5e4946416b17b52dbf4551.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/estante_01.png"
-dest_files=[ "res://.import/estante_01.png-6913c550d6bb673c8aa99820cf326c71.stex" ]
+source_file="res://assets/estante_duo_02.png"
+dest_files=[ "res://.import/estante_duo_02.png-fe4603653a5e4946416b17b52dbf4551.stex" ]
 
 [params]
 

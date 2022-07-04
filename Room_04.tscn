@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/lab_04.png" type="Texture" id=1]
+[ext_resource path="res://scenes/Estantes/Estante_01.tscn" type="PackedScene" id=2]
+[ext_resource path="res://player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=4]
+
+[node name="World" type="Node2D"]
+
+[node name="HUD" parent="." instance=ExtResource( 4 )]
+
+[node name="Lab_04" type="Sprite" parent="."]
+position = Vector2( 266, 149 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Player" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 210, 255 )
+scale = Vector2( 1.5, 1.5 )
+
+[node name="Estante_01" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 370, 109 )
+
+[node name="Estante_02" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 370, 162 )
+
+[node name="Estante_03" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 370, 227 )
+
+[node name="Collision" type="StaticBody2D" parent="."]
+position = Vector2( 263, 44 )
+scale = Vector2( 17.3479, 5.64155 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Collision"]
+scale = Vector2( 1, 1 )
+polygon = PoolVector2Array( -8.58894, 27.2975, -7.72428, 27.2975, -6.74433, 27.2975, -6.74433, 37.7556, -7.72428, 37.7556, -7.72428, 38.4646, -3.97743, 38.4646, -3.97743, 41.3007, -2.13282, 41.3007, -2.13282, 38.4646, 8.0125, 38.4646, 8.0125, 9.74909, -0.285465, 9.74909, -0.288219, 11.1671, -6.74433, 11.3444, -6.74433, 27.2975, -7.72428, 27.2975, -8.58894, 27.2975, -8.58893, -6.02672, 8.70422, -6.02671, 8.70422, 42.896, -8.58893, 42.896 )
