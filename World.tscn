@@ -3,7 +3,7 @@
 [ext_resource path="res://player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/lab_01.png" type="Texture" id=2]
 [ext_resource path="res://assets/background.png" type="Texture" id=3]
-[ext_resource path="res://assets/estante2_01.png" type="Texture" id=4]
+[ext_resource path="res://assets/estante_01.png" type="Texture" id=4]
 [ext_resource path="res://assets/estante_02.png" type="Texture" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -73,4 +73,4 @@ __meta__ = {
 }
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Collision"]
-polygon = PoolVector2Array( -8.58893, 27.1202, -5.59145, 27.1202, -5.59145, 15.7758, -3.97743, 15.7758, -3.97743, 32.7924, -7.66663, 32.7924, -7.66663, 38.4646, -3.97743, 38.4646, -3.97743, 41.3007, -2.13282, 41.3007, -2.13282, 38.4646, 7.09019, 38.4646, 7.09019, 12.9397, 8.01249, 12.9397, 8.01249, 10.2809, -7.72427, 10.1036, -7.66663, 27.1202, -8.58893, 27.1202, -8.58893, -6.02672, 9.8571, -6.02672, 9.8571, 42.896, -8.58893, 42.896 )
+polygon = PoolVector2Array( -8.58893, 27.1202, -5.59145, 27.1202, -5.59145, 15.7758, -3.97743, 15.7758, -3.97743, 32.7924, -7.66663, 32.7924, -7.66663, 38.4646, -3.97743, 38.4646, -3.97743, 41.3007, -2.13282, 41.3007, -2.13282, 38.4646, 7.09019, 38.4646, 7.09019, 12.9397, 8.01249, 12.9397, 8.01249, 10.2809, -7.72427, 10.1036, -7.66663, 27.1202, -8.58893, 27.1202, -8.58893, -6.02672, 8.70422, -6.02671, 8.70422, 42.896, -8.58893, 42.896 )
