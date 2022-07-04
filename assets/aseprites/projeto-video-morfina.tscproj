@@ -1,0 +1,3532 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "width" : 1920.0,
+  "height" : 1080.0,
+  "version" : "2.0",
+  "editRate" : 30,
+  "authoringClientName" :  {
+    "name" : "Camtasia",
+    "platform" : "Windows",
+    "version" : "18.0"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "C:\\System\\Escola\\IFFAR\\3º\\quimica\\Morfina-cafeina-nicotina.mp4",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20220601T205830",
+      "sourceTracks" : [
+        {
+          "range" : [0, 8558018366],
+          "type" : 0,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : "1000/33",
+          "bitDepth" : 24,
+          "numChannels" : 0,
+          "metaData" : ""
+        },
+        {
+          "range" : [0, 8558018366],
+          "type" : 2,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 16,
+          "numChannels" : 2,
+          "metaData" : ""
+        }
+      ]
+    },
+    {
+      "id" : 2,
+      "src" : "C:\\Users\\jonat\\Downloads\\Blurry Vision - Corbyn Kites.mp3",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20220602T004624",
+      "sourceTracks" : [
+        {
+          "range" : [0, 1587199750],
+          "type" : 2,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "metaData" : ""
+        }
+      ]
+    }
+  ],
+  "timeline" : {
+    "id" : 3,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "duration" : 856.033333333333,
+          "title" : "",
+          "type" : "",
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                  {
+                    "id" : 4,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Blurry Vision - Corbyn Kites",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 0,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 0.192307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 116,
+                            "value" : 0.923076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 137,
+                            "value" : 0.115384615384615,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 4193,
+                    "mediaStart" : 85,
+                    "mediaDuration" : 4193,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 5,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Blurry Vision - Corbyn Kites",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 0,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : 0.115384615384615
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 4193,
+                    "duration" : 4193,
+                    "mediaStart" : 85,
+                    "mediaDuration" : 4193,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 6,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Blurry Vision - Corbyn Kites",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 0,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : 0.115384615384615
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 8386,
+                    "duration" : 4193,
+                    "mediaStart" : 85,
+                    "mediaDuration" : 4193,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 7,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Blurry Vision - Corbyn Kites",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 0,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : 0.115384615384615
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 12579,
+                    "duration" : 4193,
+                    "mediaStart" : 85,
+                    "mediaDuration" : 4193,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 8,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Blurry Vision - Corbyn Kites",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 0,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : 0.115384615384615
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 16772,
+                    "duration" : 4193,
+                    "mediaStart" : 85,
+                    "mediaDuration" : 4193,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 9,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Blurry Vision - Corbyn Kites",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 0,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : 0.115384615384615
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 20965,
+                    "duration" : 4193,
+                    "mediaStart" : 85,
+                    "mediaDuration" : 4193,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 10,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Blurry Vision - Corbyn Kites",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 0,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : 0.115384615384615
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 25158,
+                    "duration" : 518,
+                    "mediaStart" : 3836,
+                    "mediaDuration" : 518,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 11,
+                    "_type" : "VMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina"
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 7,
+                    "mediaStart" : 28,
+                    "mediaDuration" : 7,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 12,
+                    "_type" : "VMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina"
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 7,
+                    "duration" : 7,
+                    "mediaStart" : 28,
+                    "mediaDuration" : 7,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 13,
+                    "_type" : "VMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina"
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 14,
+                    "duration" : 7,
+                    "mediaStart" : 28,
+                    "mediaDuration" : 7,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 14,
+                    "_type" : "VMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina"
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 21,
+                    "duration" : 7,
+                    "mediaStart" : 28,
+                    "mediaDuration" : 7,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 15,
+                    "_type" : "VMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina"
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 28,
+                    "duration" : 7,
+                    "mediaStart" : 28,
+                    "mediaDuration" : 7,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 16,
+                    "_type" : "VMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina"
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 35,
+                    "duration" : 7,
+                    "mediaStart" : 28,
+                    "mediaDuration" : 7,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 17,
+                    "_type" : "VMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina"
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 42,
+                    "duration" : 25639,
+                    "mediaStart" : 35,
+                    "mediaDuration" : 25639,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 2,
+                "medias" : [
+                  {
+                    "id" : 18,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 2.2711628495508,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 2.55687713526509,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 0.507692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 677,
+                            "value" : 0.584615384615385,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 7,
+                    "duration" : 676,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 676,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 19,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 681,
+                            "value" : 5.0,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 683,
+                    "duration" : 20,
+                    "mediaStart" : 678,
+                    "mediaDuration" : 20,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 20,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "toc" : {
+                        "type" : "string",
+                        "keyframes" : [
+                          {
+                            "time" : 3419,
+                            "value" : "Marker 6",
+                            "duration" : 0,
+                            "metadata" : {
+                              "markerIdentifier" : "18B3347B-CB7C-46C0-B116-A1858574A3DB"
+                            }
+                          }
+                        ]
+                      },
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 705,
+                    "duration" : 3531,
+                    "mediaStart" : 698,
+                    "mediaDuration" : 3531,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 21,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 4255,
+                    "duration" : 1605,
+                    "mediaStart" : 4244,
+                    "mediaDuration" : 1605,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 22,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 5881,
+                    "duration" : 2988,
+                    "mediaStart" : 5870,
+                    "mediaDuration" : 2988,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 23,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 8900,
+                    "duration" : 283,
+                    "mediaStart" : 8889,
+                    "mediaDuration" : 283,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 24,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 9195,
+                            "value" : 0.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 9197,
+                            "value" : 0.5,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 9183,
+                    "duration" : 25,
+                    "mediaStart" : 9172,
+                    "mediaDuration" : 25,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 25,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10347,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10356,
+                            "value" : 0.225752508361204,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10390,
+                            "value" : 0.401880141010576,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10393,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 9208,
+                    "duration" : 1869,
+                    "mediaStart" : 9197,
+                    "mediaDuration" : 1869,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 26,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10347,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10356,
+                            "value" : 0.225752508361204,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10390,
+                            "value" : 0.401880141010576,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10393,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11087,
+                            "value" : 0.153846153846154,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11093,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 11098,
+                    "duration" : 6439,
+                    "mediaStart" : 11087,
+                    "mediaDuration" : 6439,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 27,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10347,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10356,
+                            "value" : 0.225752508361204,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10390,
+                            "value" : 0.401880141010576,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10393,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11087,
+                            "value" : 0.153846153846154,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11093,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 17533,
+                            "value" : 0.653511861411908,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 17539,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 17550,
+                            "value" : 5.0,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 17537,
+                    "duration" : 24,
+                    "mediaStart" : 17526,
+                    "mediaDuration" : 24,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 28,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10347,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10356,
+                            "value" : 0.225752508361204,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10390,
+                            "value" : 0.401880141010576,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10393,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11087,
+                            "value" : 0.153846153846154,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11093,
+                            "value" : 5.0,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 17561,
+                    "duration" : 10,
+                    "mediaStart" : 17553,
+                    "mediaDuration" : 10,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 29,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10347,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10356,
+                            "value" : 0.225752508361204,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10390,
+                            "value" : 0.401880141010576,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10393,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11087,
+                            "value" : 0.153846153846154,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11093,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 17574,
+                    "duration" : 2605,
+                    "mediaStart" : 17563,
+                    "mediaDuration" : 2605,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 30,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10347,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10356,
+                            "value" : 0.225752508361204,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10390,
+                            "value" : 0.401880141010576,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10393,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11087,
+                            "value" : 0.153846153846154,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11093,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 20179,
+                    "duration" : 37,
+                    "mediaStart" : 20168,
+                    "mediaDuration" : 37,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 31,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "Morfina-cafeina-nicotina",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 657,
+                            "value" : 1.12244897959184,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 662,
+                            "value" : 0.302197802197802,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 666,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 790,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 795,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 802,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1302,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1305,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1309,
+                            "value" : 0.5,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1312,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1682,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1686,
+                            "value" : 0.269230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1691,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1694,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1782,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1787,
+                            "value" : 0.230769230769231,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1794,
+                            "value" : 0.414201183431953,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1800,
+                            "value" : 0.461538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1806,
+                            "value" : 0.538461538461538,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1817,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3429,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3435,
+                            "value" : 0.423076923076923,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 3445,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5003,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5008,
+                            "value" : 0.0769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5024,
+                            "value" : 0.692307692307692,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5028,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5042,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5055,
+                            "value" : 0.769230769230769,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5080,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5436,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5441,
+                            "value" : 0.307692307692308,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5470,
+                            "value" : 0.576923076923077,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 5474,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10347,
+                            "value" : 0.884615384615385,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10356,
+                            "value" : 0.225752508361204,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10390,
+                            "value" : 0.401880141010576,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 10393,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11087,
+                            "value" : 0.153846153846154,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 11093,
+                            "value" : 0.961538461538462,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 20216,
+                    "duration" : 5465,
+                    "mediaStart" : 20205,
+                    "mediaDuration" : 5465,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 3,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 4,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 5,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 6,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 7,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 8,
+                "medias" : [
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      }
+    ],
+    "parameters" : {
+      "toc" : {
+        "type" : "string",
+        "keyframes" : [
+          {
+            "time" : 304,
+            "value" : "Marker 4",
+            "duration" : 0,
+            "metadata" : {
+              "markerIdentifier" : "38EF6E7D-19E0-491B-86C3-F5C72345482A"
+            }
+          },
+          {
+            "time" : 1679,
+            "value" : "Marker 5",
+            "duration" : 0,
+            "metadata" : {
+              "markerIdentifier" : "0FFB09D7-6A50-4893-BD8E-D77D3E4545AC"
+            }
+          },
+          {
+            "time" : 5002,
+            "value" : "Marker 9",
+            "duration" : 0,
+            "metadata" : {
+              "markerIdentifier" : "1DC6D12C-0864-4A1A-9377-7E506D87FABE"
+            }
+          },
+          {
+            "time" : 13323,
+            "value" : "Marker 10",
+            "duration" : 0,
+            "metadata" : {
+              "markerIdentifier" : "920B09FF-1542-4B3F-959E-E348A9AD0450"
+            }
+          },
+          {
+            "time" : 24764,
+            "value" : "Marker 20",
+            "duration" : 0,
+            "metadata" : {
+              "markerIdentifier" : "45036361-F0A4-4A56-A8E5-671FF6AAB2F9"
+            }
+          }
+        ]
+      }
+    },
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 64,
+      "backgroundColor" : [ 0, 0, 0, 191],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "AutoSaveFile" : "",
+    "CanvasZoom" : 25,
+    "Date" : "2022-06-01 06:40:26 ",
+    "IsAutoSave" : "0",
+    "Language" : "ENU",
+    "ProfileName" : "",
+    "ProjectDimensionsChanged" : "1",
+    "Title" : "projeto-video-morfina",
+    "audioNarrationNotes" : "",
+    "calloutStyle" : "Basic",
+    "canvasDetached" : "False",
+    "canvasPositionHeight" : "0",
+    "canvasPositionLeft" : "0",
+    "canvasPositionTop" : "0",
+    "canvasPositionWidth" : "0"
+  }
+}

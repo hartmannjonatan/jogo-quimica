@@ -1,0 +1,58 @@
+[gd_scene load_steps=10 format=2]
+
+[sub_resource type="StreamTexture" id=8]
+load_path = "res://.import/C-floating-2Layer 1.png-29d320bc336b4c7110fe601f38dc100d.stex"
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = SubResource( 8 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = SubResource( 8 )
+region = Rect2( 16, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = SubResource( 8 )
+region = Rect2( 32, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = SubResource( 8 )
+region = Rect2( 0, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = SubResource( 8 )
+region = Rect2( 16, 16, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = SubResource( 8 )
+region = Rect2( 32, 16, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=15]
+animations = [ {
+"frames": [ SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 12 ), SubResource( 14 ), SubResource( 10 ) ],
+"loop": true,
+"name": "floating",
+"speed": 10.0
+} ]
+
+[sub_resource type="CircleShape2D" id=7]
+radius = 8.0
+
+[node name="C" type="Area2D"]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 15 )
+animation = "floating"
+frame = 5
+playing = true
+__meta__ = {
+"_editor_description_": "YXNlcHJpdGVfd2l6YXJkX2NvbmZpZwpzb3VyY2V8PUM6L1N5c3RlbS9Fc2NvbGEvSUZGQVIvM8K6L3F1aW1pY2EvQy1mbG9hdGluZy5hc2Vwcml0ZQpsYXllcnw9TGF5ZXIgMQpvcF9leHB8PVRydWUKb19mb2xkZXJ8PXJlczovL2Fzc2V0cy9hc2Vwcml0ZXMKb19uYW1lfD1DLWZsb2F0aW5nLTIKb25seV92aXNpYmxlfD1GYWxzZQpvX2V4X3B8PQo="
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2( 0, 1 )
+shape = SubResource( 7 )
