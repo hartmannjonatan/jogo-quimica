@@ -23,6 +23,7 @@ position = Vector2( 210, 255 )
 scale = Vector2( 1.5, 1.5 )
 
 [node name="Collision" type="StaticBody2D" parent="."]
+visible = false
 position = Vector2( 263, 44 )
 scale = Vector2( 17.3479, 5.64155 )
 
@@ -38,7 +39,6 @@ position = Vector2( 8.70422, 10.9899 )
 polygon = PoolVector2Array( -2.3634, 10.1036, -2.3634, 20.739, -4.7268, 20.739, -4.7268, 17.1939, -3.2857, 17.1939, -3.2857, 10.1036 )
 
 [node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="Collision"]
-scale = Vector2( 1, 1 )
 polygon = PoolVector2Array( -6.11025, 26.4112, -6.11025, 33.6787, -4.7268, 33.6787, -4.7268, 37.2238, -7.09019, 37.2238, -7.09019, 26.4112 )
 
 [node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="Collision"]
