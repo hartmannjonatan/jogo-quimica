@@ -1,11 +1,10 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://assets/lab_01.png" type="Texture" id=1]
 [ext_resource path="res://scenes/H.tscn" type="PackedScene" id=2]
 [ext_resource path="res://player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=4]
-[ext_resource path="res://scenes/O.tscn" type="PackedScene" id=5]
-[ext_resource path="res://scenes/N.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/Door.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/C.tscn" type="PackedScene" id=7]
 [ext_resource path="res://scenes/Estantes/Estante_01.tscn" type="PackedScene" id=8]
 [ext_resource path="res://scenes/Estantes/Estante_02.tscn" type="PackedScene" id=9]
@@ -22,27 +21,16 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="Elementos" type="Node" parent="."]
-
-[node name="C" parent="Elementos" instance=ExtResource( 7 )]
-position = Vector2( 207, 112 )
-
-[node name="C2" parent="Elementos" instance=ExtResource( 7 )]
-position = Vector2( 372, 171 )
-
-[node name="H" parent="Elementos" instance=ExtResource( 2 )]
-position = Vector2( 210, 171 )
-
-[node name="O" parent="Elementos" instance=ExtResource( 5 )]
-position = Vector2( 285, 248 )
-
-[node name="N" parent="Elementos" instance=ExtResource( 6 )]
-position = Vector2( 172, 245 )
-
 [node name="YSort" type="YSort" parent="."]
 
+[node name="C" parent="YSort" instance=ExtResource( 7 )]
+position = Vector2( 155, 187 )
+
+[node name="H" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 350, 184 )
+
 [node name="Player" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( 210, 255 )
+position = Vector2( 210, 252 )
 scale = Vector2( 1.5, 1.5 )
 
 [node name="Estante_01" parent="YSort" instance=ExtResource( 8 )]
@@ -56,6 +44,9 @@ position = Vector2( 322, 205 )
 
 [node name="Estante_04" parent="YSort" instance=ExtResource( 9 )]
 position = Vector2( 258, 205 )
+
+[node name="Door" parent="." instance=ExtResource( 5 )]
+position = Vector2( 210, 271 )
 
 [node name="Collision" type="StaticBody2D" parent="."]
 position = Vector2( 263, 44 )

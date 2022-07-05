@@ -1,58 +1,28 @@
 extends Node
 
-var C = 0
-var H = 0
-var O = 0
-var N = 0
-var I = 0
-var F = 0
-var Cl = 0
-var Br = 0
+var C = false
+var H = false
+var O = false
+var N = false
+var I = false
+var F = false
+var Cl = false
+var Br = false
 
 func _ready():
 	pass # Replace with function body.
 
-func addOrRemove(element: String, n: int, add: bool):
+func add(element: String):
 	match element:
 		"C":
-			if add:
-				C += n
-			else: C -= n
+			C = true
 		"H":
-			if add:
-				H += n
-			else: H -= n
+			H = true
 		"O":
-			if add:
-				O += n
-			else: O -= n
+			O = true
 		"N":
-			if add:
-				N += n
-			else: N -= n
-		"I":
-			if add:
-				I += n
-			else: I -= n
-		"F":
-			if add:
-				F += n
-			else: F -= n
+			N = true
 		"Cl":
-			if add:
-				Cl += n
-			else: Cl -= n
+			Cl = true
 		"Br":
-			if add:
-				Br += n
-			else: Br -= n
-
-func printElements():
-	print("C = %d" % C)
-	print("H = %d" % H)
-	print("O = %d" % O)
-	print("N = %d" % N)
-	print("I = %d" % I)
-	print("F = %d" % F)
-	print("Cl = %d" % Cl)
-	print("Br = %d" % Br)
+			Br = true

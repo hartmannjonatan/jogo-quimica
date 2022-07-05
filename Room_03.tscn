@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://assets/lab_03.png" type="Texture" id=1]
+[ext_resource path="res://scenes/N.tscn" type="PackedScene" id=2]
 [ext_resource path="res://player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/Door.tscn" type="PackedScene" id=5]
 
 [node name="World" type="Node2D"]
 
@@ -18,9 +20,15 @@ __meta__ = {
 
 [node name="YSort" type="YSort" parent="."]
 
+[node name="N" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 353, 163 )
+
 [node name="Player" parent="YSort" instance=ExtResource( 3 )]
 position = Vector2( 210, 255 )
 scale = Vector2( 1.5, 1.5 )
+
+[node name="Door" parent="." instance=ExtResource( 5 )]
+position = Vector2( 210, 271 )
 
 [node name="Collision" type="StaticBody2D" parent="."]
 position = Vector2( 263, 44 )
