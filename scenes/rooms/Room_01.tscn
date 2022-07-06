@@ -6,8 +6,8 @@
 [ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/Door.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/C.tscn" type="PackedScene" id=7]
-[ext_resource path="res://scenes/Estantes/Estante_01.tscn" type="PackedScene" id=8]
-[ext_resource path="res://scenes/Estantes/Estante_02.tscn" type="PackedScene" id=9]
+[ext_resource path="res://scenes/bookcase/Estante_01.tscn" type="PackedScene" id=8]
+[ext_resource path="res://scenes/bookcase/Estante_02.tscn" type="PackedScene" id=9]
 
 [node name="World" type="Node2D"]
 

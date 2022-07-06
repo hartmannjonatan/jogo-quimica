@@ -24,7 +24,7 @@ __meta__ = {
 position = Vector2( 353, 163 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( 210, 255 )
+position = Vector2( 210, 252 )
 scale = Vector2( 1.5, 1.5 )
 
 [node name="Door" parent="." instance=ExtResource( 5 )]

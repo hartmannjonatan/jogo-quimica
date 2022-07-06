@@ -11,4 +11,4 @@ func _on_Door_body_entered(body):
 		$changeRoom.play("transition")
 		
 func enterRoom():
-	get_tree().change_scene("res://%s" % room)
+	get_tree().change_scene("res://scenes/rooms/%s" % room)
