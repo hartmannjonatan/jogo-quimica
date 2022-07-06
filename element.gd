@@ -16,53 +16,38 @@ func _ready():
 func _on_C_body_entered(body):
 	if body.is_in_group("player"):
 		body.get_node("getElementFx").play()
-		inventary.addOrRemove("C", 1, true)
+		inventary.add("C")
 		queue_free()
 
 
 func _on_H_body_entered(body):
 	if body.is_in_group("player"):
 		body.get_node("getElementFx").play()
-		inventary.addOrRemove("H", 1, true)
+		inventary.add("H")
 		queue_free()
 
 func _on_O_body_entered(body):
 	if body.is_in_group("player"):
 		body.get_node("getElementFx").play()
-		inventary.addOrRemove("O", 1, true)
+		inventary.add("O")
 		queue_free()
 
 
 func _on_N_body_entered(body):
 	if body.is_in_group("player"):
 		body.get_node("getElementFx").play()
-		inventary.addOrRemove("N", 1, true)
+		inventary.add("N")
 		queue_free()
-
-
-func _on_I_body_entered(body):
-	if body.is_in_group("player"):
-		body.get_node("getElementFx").play()
-		inventary.addOrRemove("I", 1, true)
-		queue_free()
-
-
-func _on_F_body_entered(body):
-	if body.is_in_group("player"):
-		body.get_node("getElementFx").play()
-		inventary.addOrRemove("F", 1, true)
-		queue_free()
-
 
 func _on_Cl_body_entered(body):
 	if body.is_in_group("player"):
 		body.get_node("getElementFx").play()
-		inventary.addOrRemove("Cl", 1, true)
+		inventary.add("Cl")
 		queue_free()
 
 
 func _on_Br_body_entered(body):
 	if body.is_in_group("player"):
 		body.get_node("getElementFx").play()
-		inventary.addOrRemove("Br", 1, true)
+		inventary.add("Br")
 		queue_free()
