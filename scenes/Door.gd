@@ -4,6 +4,7 @@ export (String, "Room_01.tscn", "Room_02.tscn", "Room_03.tscn", "Room_04.tscn", 
 
 func _ready():
 	$enterRoom.play("transition")
+	$ColorRect.visible = true
 
 func _on_Door_body_entered(body):
 	if body.is_in_group("player"):
