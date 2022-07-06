@@ -49,6 +49,7 @@ position = Vector2( 258, 205 )
 position = Vector2( 210, 271 )
 
 [node name="Collision" type="StaticBody2D" parent="."]
+visible = false
 position = Vector2( 263, 44 )
 scale = Vector2( 17.3479, 5.64155 )
 __meta__ = {
