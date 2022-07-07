@@ -1,13 +1,15 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://assets/lab_01.png" type="Texture" id=1]
 [ext_resource path="res://scenes/H.tscn" type="PackedScene" id=2]
 [ext_resource path="res://player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/Door.tscn" type="PackedScene" id=5]
+[ext_resource path="res://assets/janela.png" type="Texture" id=6]
 [ext_resource path="res://scenes/C.tscn" type="PackedScene" id=7]
 [ext_resource path="res://scenes/bookcase/Estante_01.tscn" type="PackedScene" id=8]
 [ext_resource path="res://scenes/bookcase/Estante_02.tscn" type="PackedScene" id=9]
+[ext_resource path="res://assets/inv.png" type="Texture" id=10]
 
 [node name="World" type="Node2D"]
 
@@ -59,3 +61,13 @@ __meta__ = {
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Collision"]
 visible = false
 polygon = PoolVector2Array( -8.58893, 27.1202, -5.59145, 27.1202, -5.59145, 15.7758, -3.97743, 15.7758, -3.97743, 32.7924, -7.66663, 32.7924, -7.66663, 38.4646, -3.97743, 38.4646, -3.97743, 41.3007, -2.13282, 41.3007, -2.13282, 38.4646, 7.09019, 38.4646, 7.09019, 12.9397, 8.01249, 12.9397, 8.01249, 10.2809, -7.72427, 10.1036, -7.66663, 27.1202, -8.58893, 27.1202, -8.58893, -6.02672, 8.70422, -6.02671, 8.70422, 42.896, -8.58893, 42.896 )
+
+[node name="Janela" type="Sprite" parent="."]
+position = Vector2( 224, 144 )
+scale = Vector2( 0.34, 0.34 )
+texture = ExtResource( 6 )
+
+[node name="Inv" type="Sprite" parent="Janela"]
+position = Vector2( 550, 49.9998 )
+scale = Vector2( 0.7, 0.7 )
+texture = ExtResource( 10 )
