@@ -1,7 +1,7 @@
 extends Control
 
 func _ready():
-	pass
+	Music.play_music()
 	
 	
 
