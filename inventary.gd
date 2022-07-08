@@ -8,9 +8,21 @@ var I = false
 var F = false
 var Cl = false
 var Br = false
+var room1 = false
+var room2 = false
+var room3 = false
+var room4 = false
+var grupos: Array
+
+func _process(delta):
+	if C and H and O and N and Cl and Br and !room4:
+		room1 = true
+		yield(get_tree().create_timer(1.0), "timeout")
+		get_tree().change_scene("res://MecanismoMoleculas/mol/1-cloro-2-metil-benzeno.tscn")
+		
 
 func _ready():
-	pass # Replace with function body.
+	pass;
 
 func add(element: String):
 	match element:
@@ -26,3 +38,6 @@ func add(element: String):
 			Cl = true
 		"Br":
 			Br = true
+			
+func enterGroup(nome: String):
+	grupos.append(nome)

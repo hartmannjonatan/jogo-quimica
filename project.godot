@@ -29,6 +29,7 @@ config/icon="res://icon.png"
 Inventary="*res://inventary.gd"
 DialogBox="*res://DialogBox.tscn"
 Music="*res://autoloads/Music.tscn"
+GlobalVar="*res://MecanismoMoleculas/GlobalVar.gd"
 
 [display]
 
