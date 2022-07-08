@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Surprised.mp3-8190c0e87ce7abad6c95663d62eae001.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Surprised.mp3"
+dest_files=[ "res://.import/Surprised.mp3-8190c0e87ce7abad6c95663d62eae001.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

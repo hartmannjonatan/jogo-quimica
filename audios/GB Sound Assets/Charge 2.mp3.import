@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Charge 2.mp3-528dce76df8583813ee91dd9a8c811e8.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Charge 2.mp3"
+dest_files=[ "res://.import/Charge 2.mp3-528dce76df8583813ee91dd9a8c811e8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

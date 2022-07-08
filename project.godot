@@ -30,6 +30,7 @@ Inventary="*res://inventary.gd"
 DialogBox="*res://DialogBox.tscn"
 Music="*res://autoloads/Music.tscn"
 GlobalVar="*res://MecanismoMoleculas/GlobalVar.gd"
+AudioFx="*res://autoloads/AudioFx.tscn"
 
 [display]
 

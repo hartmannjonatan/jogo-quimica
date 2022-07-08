@@ -4,6 +4,7 @@ onready var grid = $GridContainer
 onready var inventary = $"/root/Inventary"
 var count = 0
 var aux = false
+onready var AudioFx = get_node("/root/AudioFx")
 
 func _process(delta):
 	if count == 17:
@@ -15,8 +16,9 @@ func _process(delta):
 		if !aux:
 			inventary.enterGroup("Haleto de Arila")
 			aux = true
+		AudioFx.play_success()
 		yield(get_tree().create_timer(1.0), "timeout")
-		get_tree().change_scene("res://scenes/rooms/Lab.tscn")
+		get_tree().change_scene("res://MecanismoMoleculas/mol/2-bromo-pent-3-eno.tscn")
 
 func verifica(element: String, linha: String, coluna: String) -> bool:
 	if element != "default":

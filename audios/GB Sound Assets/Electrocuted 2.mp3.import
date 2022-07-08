@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Electrocuted 2.mp3-bf3395c6e2f512b900a5c9d231b6ed39.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Electrocuted 2.mp3"
+dest_files=[ "res://.import/Electrocuted 2.mp3-bf3395c6e2f512b900a5c9d231b6ed39.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

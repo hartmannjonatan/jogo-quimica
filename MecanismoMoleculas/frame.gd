@@ -11,6 +11,7 @@ var LigDupla = preload("res://MecanismoMoleculas/sprites-elements/lig-dupla.png"
 var LigTripla = preload("res://MecanismoMoleculas/sprites-elements/lig-tripla.png")
 var default = preload("res://MecanismoMoleculas/sprites-elements/frameClear.png")
 var erro = preload("res://MecanismoMoleculas/sprites-elements/frame-erro.png")
+onready var AudioFx = get_node("/root/AudioFx")
 
 onready var control = $".".get_parent().get_parent().get_parent()
 
@@ -51,6 +52,8 @@ func _on_0_pressed():
 				$Sprite.texture = LigTripla
 			default:
 				$Sprite.texture = default
-	else: $Sprite.texture = erro
+	else: 
+		$Sprite.texture = erro
+		AudioFx.play_error()
 		
 	

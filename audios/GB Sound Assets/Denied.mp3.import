@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Denied.mp3-c71d056cbf4d2e24119721079ab8a60c.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Denied.mp3"
+dest_files=[ "res://.import/Denied.mp3-c71d056cbf4d2e24119721079ab8a60c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

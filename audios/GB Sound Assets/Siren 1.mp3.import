@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Siren 1.mp3-645eb255f932dbebcc42f5c9f88c3164.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Siren 1.mp3"
+dest_files=[ "res://.import/Siren 1.mp3-645eb255f932dbebcc42f5c9f88c3164.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

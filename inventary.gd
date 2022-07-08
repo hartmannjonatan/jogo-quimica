@@ -15,8 +15,23 @@ var room4 = false
 var grupos: Array
 
 func _process(delta):
-	if C and H and O and N and Cl and Br and !room4:
+	if C and H and !room1:
 		room1 = true
+		yield(get_tree().create_timer(1.0), "timeout")
+		get_tree().change_scene("res://MecanismoMoleculas/mol/34-dimetil-5-etil-octano.tscn")
+	
+	if C and H and O and !room2:
+		room2 = true
+		yield(get_tree().create_timer(1.0), "timeout")
+		get_tree().change_scene("res://MecanismoMoleculas/mol/33-dietil-pent-4-en-2-ol.tscn")
+	
+	if C and H and O and N and !room3:
+		room3 = true
+		yield(get_tree().create_timer(1.0), "timeout")
+		get_tree().change_scene("res://MecanismoMoleculas/mol/3-metil-pent-2-enamida.tscn")
+	
+	if C and H and O and N and Br and Cl and !room4:
+		room4 = true
 		yield(get_tree().create_timer(1.0), "timeout")
 		get_tree().change_scene("res://MecanismoMoleculas/mol/1-cloro-2-metil-benzeno.tscn")
 		
@@ -41,3 +56,4 @@ func add(element: String):
 			
 func enterGroup(nome: String):
 	grupos.append(nome)
+

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Hitsound 3.mp3-4c7b0e36360d0c99c1bfe02f9dceb878.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Hitsound 3.mp3"
+dest_files=[ "res://.import/Hitsound 3.mp3-4c7b0e36360d0c99c1bfe02f9dceb878.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

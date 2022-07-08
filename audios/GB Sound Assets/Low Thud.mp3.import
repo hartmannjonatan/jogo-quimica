@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Low Thud.mp3-51b46b904c94bb0cac8338e308175a17.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Low Thud.mp3"
+dest_files=[ "res://.import/Low Thud.mp3-51b46b904c94bb0cac8338e308175a17.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

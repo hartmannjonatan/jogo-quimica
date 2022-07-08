@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Chant1.mp3-a2e1a90716a3e971972acd9feb8df251.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Chant1.mp3"
+dest_files=[ "res://.import/Chant1.mp3-a2e1a90716a3e971972acd9feb8df251.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Helicopter.mp3-11b1cd4729e65c9cce7ac29d787a8484.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Helicopter.mp3"
+dest_files=[ "res://.import/Helicopter.mp3-11b1cd4729e65c9cce7ac29d787a8484.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

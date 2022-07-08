@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Idle Car.mp3-52533b92b3b008c7e60f2a21a77d855a.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Idle Car.mp3"
+dest_files=[ "res://.import/Idle Car.mp3-52533b92b3b008c7e60f2a21a77d855a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

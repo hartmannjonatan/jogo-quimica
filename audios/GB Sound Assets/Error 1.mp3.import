@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Error 1.mp3-983fdbf1e56b4e6eed2c2afbe9c55941.mp3str"
+
+[deps]
+
+source_file="res://audios/GB Sound Assets/Error 1.mp3"
+dest_files=[ "res://.import/Error 1.mp3-983fdbf1e56b4e6eed2c2afbe9c55941.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
