@@ -24,9 +24,6 @@ __meta__ = {
 position = Vector2( 210, 252 )
 scale = Vector2( 1.5, 1.5 )
 
-[node name="Door" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( 210, 272 )
-
 [node name="Estante_01" parent="YSort" instance=ExtResource( 2 )]
 position = Vector2( 370, 109 )
 
@@ -35,6 +32,9 @@ position = Vector2( 370, 162 )
 
 [node name="Estante_03" parent="YSort" instance=ExtResource( 2 )]
 position = Vector2( 370, 227 )
+
+[node name="Door" parent="." instance=ExtResource( 5 )]
+position = Vector2( 210, 272 )
 
 [node name="Collision" type="StaticBody2D" parent="."]
 position = Vector2( 263, 44 )
