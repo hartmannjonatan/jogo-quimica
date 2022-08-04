@@ -5,7 +5,7 @@
 [ext_resource path="res://player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/bookcase/Estante_01.tscn" type="PackedScene" id=5]
-[ext_resource path="res://scenes/O.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/moleculas/O.tscn" type="PackedScene" id=6]
 [ext_resource path="res://scenes/Door.tscn" type="PackedScene" id=7]
 
 [node name="World" type="Node2D"]
@@ -13,7 +13,7 @@
 [node name="HUD" parent="." instance=ExtResource( 4 )]
 
 [node name="Lab_02" type="Sprite" parent="."]
-position = Vector2( 266, 149 )
+position = Vector2( 306, 149 )
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 1 )
 __meta__ = {
@@ -23,23 +23,23 @@ __meta__ = {
 [node name="YSort" type="YSort" parent="."]
 
 [node name="O" parent="YSort" instance=ExtResource( 6 )]
-position = Vector2( 141, 108 )
+position = Vector2( 181, 108 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( 210, 252 )
+position = Vector2( 250, 252 )
 scale = Vector2( 1.5, 1.5 )
 
 [node name="Estante_01" parent="YSort" instance=ExtResource( 5 )]
-position = Vector2( 181, 199 )
+position = Vector2( 221, 199 )
 
 [node name="Estante_02" parent="YSort" instance=ExtResource( 2 )]
-position = Vector2( 181, 136 )
+position = Vector2( 221, 136 )
 
 [node name="Door" parent="." instance=ExtResource( 7 )]
-position = Vector2( 210, 272 )
+position = Vector2( 250, 272 )
 
 [node name="Collision" type="StaticBody2D" parent="."]
-position = Vector2( 263, 44 )
+position = Vector2( 303, 44 )
 scale = Vector2( 17.3479, 5.64155 )
 __meta__ = {
 "_edit_group_": true

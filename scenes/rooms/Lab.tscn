@@ -18,18 +18,18 @@ radius = 47.5657
 [node name="HUD" parent="." instance=ExtResource( 5 )]
 
 [node name="Home" type="Sprite" parent="."]
-position = Vector2( 266, 149 )
+position = Vector2( 306, 149 )
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 3 )
 
 [node name="YSort" type="YSort" parent="."]
 
 [node name="Player" parent="YSort" instance=ExtResource( 1 )]
-position = Vector2( 157, 205 )
+position = Vector2( 197, 205 )
 scale = Vector2( 1.5, 1.5 )
 
 [node name="Computador" type="StaticBody2D" parent="YSort"]
-position = Vector2( 352, 186 )
+position = Vector2( 392, 186 )
 scale = Vector2( 0.4, 0.4 )
 
 [node name="Sprite" type="Sprite" parent="YSort/Computador"]
@@ -47,23 +47,24 @@ position = Vector2( -2.5, 30 )
 shape = SubResource( 2 )
 
 [node name="Door" parent="." instance=ExtResource( 2 )]
-position = Vector2( 174, 104 )
+position = Vector2( 214, 104 )
 room = "Room_01.tscn"
 
 [node name="Door2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 235, 104 )
+position = Vector2( 275, 104 )
 room = "Room_02.tscn"
 
 [node name="Door3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 297, 104 )
+position = Vector2( 337, 104 )
 room = "Room_03.tscn"
 
 [node name="Door4" parent="." instance=ExtResource( 2 )]
-position = Vector2( 359, 104 )
+position = Vector2( 399, 104 )
 room = "Room_04.tscn"
 
 [node name="Collision" type="StaticBody2D" parent="."]
-position = Vector2( 263, 44 )
+visible = false
+position = Vector2( 303, 44 )
 scale = Vector2( 17.3479, 5.64155 )
 __meta__ = {
 "_edit_group_": true

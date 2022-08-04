@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://assets/lab_03.png" type="Texture" id=1]
-[ext_resource path="res://scenes/N.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/moleculas/N.tscn" type="PackedScene" id=2]
 [ext_resource path="res://player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/Door.tscn" type="PackedScene" id=5]
@@ -11,7 +11,7 @@
 [node name="HUD" parent="." instance=ExtResource( 4 )]
 
 [node name="Lab_03" type="Sprite" parent="."]
-position = Vector2( 266, 149 )
+position = Vector2( 306, 149 )
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 1 )
 __meta__ = {
@@ -21,17 +21,14 @@ __meta__ = {
 [node name="YSort" type="YSort" parent="."]
 
 [node name="N" parent="YSort" instance=ExtResource( 2 )]
-position = Vector2( 353, 163 )
+position = Vector2( 393, 163 )
 
 [node name="Player" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( 210, 252 )
+position = Vector2( 250, 252 )
 scale = Vector2( 1.5, 1.5 )
 
-[node name="Door" parent="." instance=ExtResource( 5 )]
-position = Vector2( 210, 271 )
-
 [node name="Collision" type="StaticBody2D" parent="."]
-position = Vector2( 263, 44 )
+position = Vector2( 303, 44 )
 scale = Vector2( 17.3479, 5.64155 )
 __meta__ = {
 "_edit_group_": true
@@ -44,3 +41,6 @@ polygon = PoolVector2Array( -8.58894, 27.2975, -7.66664, 27.2975, -7.66663, 32.7
 [node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Collision"]
 visible = false
 polygon = PoolVector2Array( -2.65162, 14.535, -2.65162, 20.9162, -2.24811, 22.6888, 2.53633, 22.6888, 2.93983, 20.9162, 2.93983, 14.535 )
+
+[node name="Door" parent="." instance=ExtResource( 5 )]
+position = Vector2( 250, 271 )

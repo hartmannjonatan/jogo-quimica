@@ -18,7 +18,7 @@ func _process(delta):
 			aux = true
 		AudioFx.play_success()
 		yield(get_tree().create_timer(1.0), "timeout")
-		get_tree().change_scene("res://TelaFinal.tscn")
+		get_tree().change_scene("res://Win.tscn")
 	print(count)
 
 func verifica(element: String, linha: String, coluna: String) -> bool:#esse
