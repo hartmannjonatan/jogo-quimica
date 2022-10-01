@@ -23,13 +23,13 @@ mouse_filter = 2
 script = ExtResource( 2 )
 
 [node name="Janela" type="Sprite" parent="."]
-position = Vector2( 257, 149 )
+position = Vector2( 308, 149 )
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 10 )
 
 [node name="molecula" type="Label" parent="."]
-margin_left = 9.0
-margin_right = 444.0
+margin_left = 60.0
+margin_right = 495.0
 margin_bottom = 19.0
 custom_fonts/font = SubResource( 1 )
 text = "Etanol"
@@ -37,9 +37,9 @@ align = 1
 valign = 1
 
 [node name="GridContainer" type="GridContainer" parent="."]
-margin_left = 117.0
+margin_left = 168.0
 margin_top = 53.0
-margin_right = 313.0
+margin_right = 364.0
 margin_bottom = 249.0
 mouse_filter = 2
 __meta__ = {
@@ -1721,16 +1721,16 @@ __meta__ = {
 position = Vector2( 8, 8 )
 
 [node name="Inventario" type="Sprite" parent="."]
-position = Vector2( 476, 263 )
+position = Vector2( 527, 263 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 11 )
 
 [node name="Atm" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 451.0
+margin_left = 502.0
 margin_top = 239.0
-margin_right = 547.0
+margin_right = 598.0
 margin_bottom = 239.0
 
 [connection signal="pressed" from="GridContainer/0/0" to="GridContainer/0/0" method="_on_0_pressed"]

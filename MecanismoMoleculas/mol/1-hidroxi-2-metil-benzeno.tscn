@@ -26,13 +26,13 @@ anchor_bottom = 1.0
 script = ExtResource( 8 )
 
 [node name="Janela" type="Sprite" parent="."]
-position = Vector2( 257, 149 )
+position = Vector2( 308, 149 )
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 11 )
 
 [node name="molecula" type="Label" parent="."]
-margin_left = 9.0
-margin_right = 444.0
+margin_left = 60.0
+margin_right = 495.0
 margin_bottom = 19.0
 custom_fonts/font = SubResource( 2 )
 text = "1-hidroxi-2-metil-benzeno"
@@ -40,9 +40,9 @@ align = 1
 valign = 1
 
 [node name="GridContainer" type="GridContainer" parent="."]
-margin_left = 18.0
+margin_left = 69.0
 margin_top = 42.0
-margin_right = 434.0
+margin_right = 485.0
 margin_bottom = 238.0
 mouse_filter = 2
 __meta__ = {
@@ -4748,16 +4748,16 @@ margin_bottom = 8.0
 custom_fonts/font = SubResource( 1 )
 
 [node name="Inventario" type="Sprite" parent="."]
-position = Vector2( 476, 263 )
+position = Vector2( 527, 263 )
 scale = Vector2( 0.1, 0.1 )
 texture = ExtResource( 10 )
 
 [node name="Atm" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 451.0
+margin_left = 502.0
 margin_top = 239.0
-margin_right = 547.0
+margin_right = 598.0
 margin_bottom = 239.0
 
 [connection signal="pressed" from="GridContainer/0/0" to="GridContainer/0/0" method="_on_0_pressed"]
